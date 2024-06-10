@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    display: flex;
+    padding-top: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    width: 600px;
+    text-align: center;
+}
+
+ form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+} */
+
+.field .item::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    padding-top: 100px;
+}
+
